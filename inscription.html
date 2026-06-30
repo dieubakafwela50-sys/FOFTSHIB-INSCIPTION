@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Inscription - Lutondo FOFTSHIB</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Centre Lutondo-FOFTSHIB</h1>
+<h2>Fiche d'inscription apprenant</h2>
+
+<form id="formulaire">
+
+<label>Nom complet</label>
+<input type="text" id="nom" required>
+
+<label>Sexe</label>
+<select id="sexe">
+<option>Masculin</option>
+<option>Féminin</option>
+</select>
+
+<label>Date de naissance</label>
+<input type="date" id="naissance" required>
+
+<label>Lieu de naissance</label>
+<input type="text" id="lieu">
+
+<label>Téléphone</label>
+<input type="tel" id="telephone" required>
+
+<label>Adresse</label>
+<input type="text" id="adresse">
+
+<label>Niveau d'étude</label>
+<select id="niveau">
+<option>Primaire</option>
+<option>Secondaire</option>
+<option>Diplômé</option>
+<option>Universitaire</option>
+</select>
+
+<label>Filière</label>
+<select id="filiere">
+<option>Infographie</option>
+<option>Montage vidéo</option>
+<option>Informatique</option>
+<option>Anglais</option>
+<option>Français</option>
+</select>
+
+<button type="submit">Enregistrer</button>
+
+</form>
+
+<p id="message"></p>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

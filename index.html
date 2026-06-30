@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>
+Enregistrement apprenants - Lutondo FOFTSHIB
+</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<div class="container">
+
+
+<h1>
+Centre de Formation Professionnelle
+<br>
+Lutondo-FOFTSHIB
+</h1>
+
+
+<h2>
+Formulaire d'enregistrement des apprenants
+</h2>
+
+
+
+<form id="formulaire">
+
+
+<label>
+Nom complet
+</label>
+
+<input type="text" id="nom" required>
+
+
+
+<label>
+Sexe
+</label>
+
+<select id="sexe">
+
+<option>Homme</option>
+<option>Femme</option>
+
+</select>
+
+
+
+<label>
+Date de naissance
+</label>
+
+<input type="date" id="date" required>
+
+
+
+<label>
+Téléphone
+</label>
+
+<input type="tel" id="telephone" required>
+
+
+
+<label>
+Adresse
+</label>
+
+<input type="text" id="adresse">
+
+
+
+<label>
+Niveau d'étude
+</label>
+
+<select id="niveau">
+
+<option>Primaire</option>
+<option>Secondaire</option>
+<option>Universitaire</option>
+
+</select>
+
+
+
+<label>
+Choisir une filière
+</label>
+
+
+<select id="filiere">
+
+<option>Infographie</option>
+<option>Montage vidéo</option>
+<option>Informatique</option>
+<option>Anglais</option>
+<option>Français</option>
+
+</select>
+
+
+
+<label>
+Photo apprenant
+</label>
+
+<input type="file">
+
+
+
+<button type="submit">
+
+Enregistrer l'apprenant
+
+</button>
+
+
+
+</form>
+
+
+<p id="message"></p>
+
+
+</div>
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
